@@ -1,6 +1,6 @@
 {
     "name": "tituskirch/nitrapi-php-lib",
-    "description": "Titus version of the PHP SDK for Nitrapi",
+    "description": "Titus version of the PHP SDK for the Nitrapi RESTful API.",
     "keywords": [
         "nitrapi",
         "nitrado",
