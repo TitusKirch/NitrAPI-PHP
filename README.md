@@ -1,10 +1,10 @@
-Nitrapi-PHP
+nitrapi-php-lib
 ===========
 
-[![Latest Stable Version](https://poser.pugx.org/TitusKirch/NitrAPI-PHP/v/stable.png)](https://packagist.org/packages/TitusKirch/NitrAPI-PHP)
-[![Latest Unstable Version](https://poser.pugx.org/TitusKirch/NitrAPI-PHP/v/unstable.svg)](https://packagist.org/packages/TitusKirch/NitrAPI-PHP)
-[![Total Downloads](https://poser.pugx.org/TitusKirch/NitrAPI-PHP/downloads.png)](https://packagist.org/packages/TitusKirch/NitrAPI-PHP)
-![PHP Composer](https://github.com/TitusKirch/NitrAPI-PHP/workflows/PHP%20Composer/badge.svg)
+[![Latest Stable Version](https://poser.pugx.org/tituskirch/nitrapi-php-lib/v/stable.png)](https://packagist.org/packages/tituskirch/nitrapi-php-lib)
+[![Latest Unstable Version](https://poser.pugx.org/tituskirch/nitrapi-php-lib/v/unstable.svg)](https://packagist.org/packages/tituskirch/nitrapi-php-lib)
+[![Total Downloads](https://poser.pugx.org/tituskirch/nitrapi-php-lib/downloads.png)](https://packagist.org/packages/tituskirch/nitrapi-php-lib)
+![PHP Composer](https://github.com/tituskirch/nitrapi-php-lib/workflows/PHP%20Composer/badge.svg)
 
 Titus version of the PHP SDK for the Nitrapi RESTful API.
 
@@ -23,7 +23,7 @@ Edit the composer.json and execute composer.phar update
 ``` php
 {
     "require": {
-        "TitusKirch/NitrAPI-PHP": "dev-master",
+        "tituskirch/nitrapi-php-lib": "dev-master",
     }
 }
 ```
