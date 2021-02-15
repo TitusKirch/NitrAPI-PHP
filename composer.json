@@ -1,31 +1,43 @@
 {
-    "name": "nitrado/nitrapi-php-lib",
-    "description": "PHP SDK for Nitrapi",
-    "keywords": ["nitrapi", "nitrado", "marbis", "api"],
+    "name": "tituskirch/nitrapi-php-lib",
+    "description": "Titus version of the PHP SDK for Nitrapi",
+    "keywords": [
+        "nitrapi",
+        "nitrado",
+        "marbis",
+        "api"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Alexander Birkner",
             "email": "alexander.birkner@marbis.net",
-            "homepage" : "https://github.com/BirknerAlex"
+            "homepage": "https://github.com/BirknerAlex"
         },
         {
             "name": "Aaron Fischer",
             "email": "aaron.fischer@marbis.net",
-            "homepage" : "https://github.com/f0086"
+            "homepage": "https://github.com/f0086"
+        },
+        {
+            "name": "Titus Kirch",
+            "email": "titus.kirch@tkirch.dev",
+            "homepage": "https://github.com/TitusKirch"
         }
     ],
     "autoload": {
         "psr-0": {
-            "Nitrapi": ["lib/"]
+            "Nitrapi": [
+                "lib/"
+            ]
         }
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
     },
     "require": {
-        "php" : ">=7.3",
+        "php": ">=7.3",
         "guzzlehttp/guzzle": "~7.0"
     },
     "require-dev": {
